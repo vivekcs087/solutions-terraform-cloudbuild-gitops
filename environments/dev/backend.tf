@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "tensile-flow-334109-tfstate"
     prefix = "env/dev"
   }
 }
